@@ -1,6 +1,6 @@
-# Single QA Chatbot on Streamlit
+# Single QA Chatbot Using OpenAI/Azure API
 
-This web app is built Based on Langchain and Streanlit.
+This web app is built Based on Langchain and Streamlit.
 
 # Quick Start
 ```
@@ -10,7 +10,7 @@ pip install -r requirements.txt
 cp ./.streamlit/secrets_example.toml ./.streamlit/secrets.toml
 nano ./.streamlit/secrets.toml
 ```
-Paste your OpenAI API key here, save and quit. Let's run the app.
+Fill your OpenAI and/or Azure infomation here, save and quit. Let's run the app.
 ```
 streamlit run streamlit_app.py
 ```
