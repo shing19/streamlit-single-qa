@@ -8,6 +8,9 @@ git clone https://github.com/shing19/streamlit-single-qa.git
 cd streamlit-single-qa
 pip install -r requirements.txt
 cp ./.streamlit/secrets_example.toml ./.streamlit/secrets.toml
-nano ./.streamlit/secrets.toml    // put your openai api key here
+nano ./.streamlit/secrets.toml
+```
+Paste your OpenAI API key here, save and quit. Let's run the app.
+```
 streamlit run streamlit_app.py
 ```
